@@ -1,6 +1,6 @@
 # benchmark
 
-These benchmark refers from:
+LDU benchmarks refers from:
 
 ## AIM7
 
