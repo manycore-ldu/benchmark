@@ -1,0 +1,12 @@
+#!/bin/sh
+# AIM Suite 6 & 7 RUN
+# Copyright (c) 1996 - 2001 Caldera International, Inc.
+# All Rights Reserved.
+#
+# ' @(#) RUN:1.4 1/22/96 00:00:00'
+#
+cat /proc/stat > stat_start.txt
+./multitask -N -nl < input &
+wait
+echo "wait for multitask"
+cat /proc/stat > stat_end.txt
