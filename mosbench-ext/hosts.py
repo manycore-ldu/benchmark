@@ -22,7 +22,6 @@ __all__ = ["primaryHost"]
 
 from mparts.host import Host
 from support import perfLocked
-from memcached import MemcachedHost
 import support.rsshash as rsshash
 
 # Use "cmdModifier = perfLocked" if you use the "perflock" script to
